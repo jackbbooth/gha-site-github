@@ -1,0 +1,51 @@
+.container {
+  margin: 0;
+  margin-top: -5%;
+  min-height: 720px;
+  max-height: 1200px;
+}
+
+#contents {
+  float: left;
+  width: 40%;
+  margin: 20px;
+  margin-bottom: 100px
+}
+
+.photos  {
+  margin-top: 150px;
+  text-align: left;
+  width: 40%;
+  
+}
+
+.verticalLine{
+  height: 450px;
+  margin: 0px, 20px, 0px, 20px;
+  top: 50px;
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+ 
+  .container {
+    width: 100%;
+  }
+  
+ .verticalLine {
+   display: none;
+ } 
+  
+  #contents {
+    width: 90%;
+    margin: 5%;
+  }
+  
+  .photos {
+    float: left;
+    width: 90%;
+    max-width: 90%;
+    margin: -3% 5% 10% 5%;
+  }
+
+}

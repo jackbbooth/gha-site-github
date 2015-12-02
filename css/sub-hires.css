@@ -1,0 +1,47 @@
+header {
+  margin-bottom: -1%;
+}
+
+.container{
+  margin-top: -5%;
+}
+
+
+#contents {
+  max-width: 50%;
+  margin: auto;
+  margin-bottom: 30%;
+}
+
+
+#contents h2 {
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 5%;
+  font-family: "Myriad Pro", sans-serif;
+  color: #222;
+  
+}
+
+#contents ul {
+  width: 100%;
+  margin-top: 6%;
+  margin-left: 5%;
+  list-style: none;
+  font-family: "Cabin", "Helvetica", "sans-serif";
+  line-height: 20px;
+}
+
+#contents p {
+  font-family: "Cabin",inherit, sans-serif ;
+  width: 80%;
+  margin-left: 5%;
+  
+}
+
+#photos {
+  float: left ;
+  max-width: 40%;
+  margin: 15% 5% 20% 5%;
+  
+}

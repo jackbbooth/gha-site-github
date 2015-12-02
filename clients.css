@@ -1,0 +1,29 @@
+#contents {
+	margin-left: 300px;
+  margin-top: 90px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.photos {
+  margin-top: 180px
+}
+
+h1 {
+	
+}
+
+#contents h2 {
+	font-family: inherit, sans-serif;
+	font-size: 1.2em;
+	color: #333;
+}
+
+#contents p {
+		text-align: center;
+		font-size: 15px;
+}
+
+
+.Section1  {
+	margin-top: -20px;
+}

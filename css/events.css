@@ -1,0 +1,36 @@
+.container {
+  margin-top: -40px;
+}
+
+#contents {
+  margin-top: 90px;
+  margin-bottom: 100px;
+  width: 35%
+}
+.photos {
+  margin-top: 220px;
+  max-width:50%;
+
+}
+
+/* Mobile Design CSS
+----------------------------------------------- */
+/* iPad 1/2/3/4/Air (portrait)*/ 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+  
+
+
+ .photos {
+   max-width: 44%;
+   
+   
+ }
+  
+
+    
+
+}
+
+/* END Mobile Design CSS
+----------------------------------------------- */

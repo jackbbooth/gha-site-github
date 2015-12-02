@@ -1,0 +1,65 @@
+.container {
+  height: 110%;
+  margin-top: -5%;
+}
+
+#contents {
+  margin-top: 90px;
+  margin-bottom: 300px;
+  width: 40%
+}
+.photos {
+  margin-top: 180px
+}
+
+#details h1 {
+  font-size: 1.3em;
+
+}
+
+#videos {
+  position: relative;
+  float: left;
+  width: 40%;
+  z-index: 6;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+#videos h2 {
+  width: 100%;
+  position: relative;
+  margin-left: 7%;
+  font-family: 'Myriad Pro', Helvetica, Arial, sans-serif;
+  color: #333333;
+  text-align: left;
+  margin-top: 20%;  
+}
+
+.site-footer {
+ clear: both;
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+  #contents {
+    margin-right: -5%;
+  }
+  
+  #videos {
+    margin: 19% 7% 15% 9%;
+  }
+  
+  #videos h2 {
+    margin: 0% 40% 0% 0% ;
+    max-width: 100%;
+  }
+  
+  #videos iframe {
+    width: 120%;
+  }
+  
+}

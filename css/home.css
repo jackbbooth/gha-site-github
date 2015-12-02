@@ -1,0 +1,65 @@
+#myCarousel {
+	margin-top: -3%
+}
+
+.container {
+	margin-top: 12.5%;
+	height: 110%;
+}
+
+#Recent {
+  margin-left: 20px;
+}
+
+#contents{
+	width: 40%;
+}
+
+.feed-container {
+  margin-top: 40px;
+}
+
+
+
+.container h1 {
+  font-size: 28px;
+}
+
+#Recent h1 {
+  margin-bottom: 50px;
+}
+
+.verticalLine {
+	float: left;
+	position: relative;
+	border-left: 2px solid #bbb;
+	height: 450px;
+	z-index: 2;
+	margin-top: 130px;
+}
+
+/* Begin Mobile CSS */
+
+/* iPad 1/2/3/4/Air (portrait) */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)  {
+
+
+  #contents {
+    width: 90%;
+  }
+  
+  .verticalLine {
+    display: none;
+  }
+	
+	#myCarousel {
+		margin-top: -10%;
+	}
+  
+  
+}
+
+/* END Mobile CSS */
+
+
