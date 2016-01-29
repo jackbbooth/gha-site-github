@@ -128,7 +128,6 @@ header {
   position: relative;
   left: 0;
   right: 0;
-  padding:6px 20px;
   background: #444444;
   cursor: pointer;
   -webkit-transition: all 0.4s;
@@ -164,7 +163,6 @@ header {
   background: #444444; 
   display: block; 
   color: #ffffff;
-  max-width: 140px;
   z-index: 3;
   /*text-shadow: 0 -1px 0 #000;*/
 }
@@ -185,6 +183,11 @@ header {
 a:link {
   text-decoration: none;
   color: #333333;
+}
+
+.nav a {
+  display: block;
+  padding:6px 20px;
 }
 
 .nav a:link {
