@@ -548,6 +548,8 @@ filter:alpha(opacity=80); /* For IE8 and earlier */
   .site-footer p {
     max-width: 320px;
     font-size: 0.75em;
+    clear: both;
+    margin-bottom: -50px;
     
   }
   
